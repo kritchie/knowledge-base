@@ -1,0 +1,22 @@
+---
+title: Snippet template
+description: Shape of a snippet page.
+tags: [meta]
+---
+
+# Snippet template
+
+One problem, one solution, one reason.
+
+```python
+from pathlib import Path
+
+# Stream lines; never load the whole file in memory.
+with Path("data.txt").open() as fh:
+    for line in fh:
+        print(line.rstrip())
+```
+
+> Ref: [io — Core tools for working with streams](https://docs.python.org/3/library/io.html)
+> — file objects are iterators, so memory stays flat no matter the file size,
+> unlike `read()` or `readlines()`.

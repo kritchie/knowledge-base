@@ -1,0 +1,8 @@
+{
+  "label": "Concepts",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Definitions and explanations, one idea per page."
+  }
+}

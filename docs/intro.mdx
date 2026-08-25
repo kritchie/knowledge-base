@@ -1,0 +1,26 @@
+---
+id: intro
+title: Start here
+sidebar_position: 1
+description: How this knowledge base is organized.
+---
+
+# Start here
+
+STEM definitions, concepts and code snippets.
+
+## Layout
+
+| Folder | Holds |
+| --- | --- |
+| `docs/concepts/` | Definitions and explanations of one idea each. |
+| `docs/snippets/` | Runnable code, with the reason to use it. |
+
+## Add a note
+
+1. Create `docs/<folder>/<slug>.mdx`.
+2. Add front matter: `title`, `description`, optional `sidebar_position` and `tags`.
+3. Commit to `main` — the site rebuilds and deploys.
+
+The sidebar is generated from the folder tree, so no manual index to update.
+See [`sidebars.ts`](https://github.com/kritchie/knowledge-base/blob/main/sidebars.ts).
